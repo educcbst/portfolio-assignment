@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-size: 50px;
+    color: blueviolet;
+}
+
+h2{
+    font-size: 40px;
+    color: tomato;
+}
+
+p{
+    color: dimgray;
+}
+
+.name{
+
+    color: orange;
+}
+
+.half{
+
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.half img{
+
+    width: 100%;
+}
+
+.top-banner{
+
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.link-button{
+text-decoration: none;
+background-image: linear-gradient(45deg, lightsalmon, tomato);
+padding: 10px 20px;
+border-radius: 5px;
+color: white;
+font-weight: 700;
+padding-bottom: 10px;
+}
+
+
+.Botom-part{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+
+.tomato-highlight{
+
+    color: orange;
+}
+.Experience{
+    text-align: center;
+    color:tomato;
+}
+
+.Experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 50px gray;
+    text-align: justify;
+    border-radius: 5px;
+    height: 65%;
+    background-color: white;
+
+}
+
+#Fitness{
+    border-left: 5px solid;
+    padding: 5px;
+    border-image: linear-gradient(180deg, salmon);
+    border-image-slice: 1;
+    width: 25%;
+
+}
+
+#Creative{
+    border-left: 5px solid;
+    padding: 5px;
+    border-image: linear-gradient(180deg, salmon);
+    border-image-slice: 1;
+    width: 25%;
+
+}
+
+#Music{
+    border-left: 5px solid;
+    padding: 5px;
+    border-image: linear-gradient(180deg, salmon);
+    border-image-slice: 1;
+    width: 25%;
+
+
+}
+
+.bottom{
+    text-align: center;
+    color: orangered;
+}
+
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
